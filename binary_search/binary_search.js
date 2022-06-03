@@ -1,4 +1,6 @@
-// Binary Search
+// -- Binary Search --
+
+// Example 1
 var search = function(nums, target) {
     return alert (nums.indexOf(target));
 };
