@@ -19,4 +19,4 @@ var checkTree = function(root) {
    return (sum===root.val) ? true : false
 };
 
-console.log(checkTree(root2))
+console.log(checkTree(root2));
