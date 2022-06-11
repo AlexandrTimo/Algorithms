@@ -4,9 +4,9 @@ var finalValueOperations = function (operations) {
   let x = 0;
   operations.forEach((cur) => {
     if (cur === "++X" || cur === "X++") {
-      x = x + 1;
+      x += 1;
     } else if (cur === "--X" || cur === "X--") {
-      x = x - 1;
+      x -= 1;
     } else {
       x = 0;
     }
