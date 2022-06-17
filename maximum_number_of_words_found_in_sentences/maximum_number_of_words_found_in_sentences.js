@@ -1,6 +1,6 @@
 // -- Maximum Number of Words Found in Sentences --
 
-// Regualar version
+// Regular version
 var mostWordsFound = function(sentences) {
     let max = 0;
     for (let i = 0; i < sentences.length; i++) {
